@@ -1,14 +1,12 @@
 {
-    "IsActive": true,
-    "IsOmniScriptEmbeddable": false,
-    "Name": "DataRaptorExtractAction",
-    "OmniProcessId": {
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
         "Name": "Sample Account Search",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcess/InteractionLauncher/sampleAccountSearch/English",
-        "VlocityRecordSObjectType": "OmniProcess"
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/InteractionLauncher/sampleAccountSearch/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
     },
-    "PropertySetConfig": {
+    "%vlocity_namespace%__PropertySet__c": {
         "bundle": "sampleAccountSearch",
         "controlWidth": 12,
         "dataRaptor Input Parameters": [
@@ -48,8 +46,10 @@
         "validationRequired": "None",
         "wpm": false
     },
-    "Type": "DataRaptor Extract Action",
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "DataRaptor Extract Action",
+    "Name": "DataRaptorExtractAction",
     "VlocityDataPackType": "SObject",
-    "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/sampleAccountSearch/English/DataRaptorExtractAction"
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/InteractionLauncher/sampleAccountSearch/English/DataRaptorExtractAction"
 }
