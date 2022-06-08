@@ -1,0 +1,98 @@
+{
+    "careProviders": [
+        {
+            "appointmentTypeCode": "",
+            "careProviderId": "0bSxx0000000001EAA",
+            "npi": "3242342",
+            "serviceResourceId": "0Hnxx0000004C92CAE",
+            "serviceTerritoryId": "0Hhxx0000004C92CAE",
+            "serviceTypeCode": "",
+            "sourceFacilityId": "",
+            "sourcePractitionerId": "",
+            "sourceSystem": ""
+        },
+        {
+            "appointmentTypeCode": "",
+            "careProviderId": "0bSxx1110000001EAA",
+            "npi": "3242343",
+            "serviceResourceId": "0Hnxx0000004C92CAE",
+            "serviceTerritoryId": "0Hhxx0000004C92CAE",
+            "serviceTypeCode": "",
+            "sourceFacilityId": "",
+            "sourcePractitionerId": "",
+            "sourceSystem": ""
+        },
+        {
+            "appointmentTypeCode": "",
+            "careProviderId": "0bSxx2220000001EAA",
+            "npi": "3242344",
+            "serviceResourceId": "0Hnxx0000004C92CAE",
+            "serviceTerritoryId": "0Hhxx0000004C92CAE",
+            "serviceTypeCode": "",
+            "sourceFacilityId": "",
+            "sourcePractitionerId": "",
+            "sourceSystem": ""
+        },
+        {
+            "appointmentTypeCode": "",
+            "careProviderId": "0bSxx3333000001EAA",
+            "npi": "3242345",
+            "serviceResourceId": "0Hnxx0000004C92CAE",
+            "serviceTerritoryId": "0Hhxx0000004C92CAE",
+            "serviceTypeCode": "",
+            "sourceFacilityId": "",
+            "sourcePractitionerId": "",
+            "sourceSystem": ""
+        }
+    ],
+    "slots": {
+        "0bSxx0000000001EAA": [
+            {
+                "externalSlotId": "20f879e3-0605-4dc6-82ab-ff9196d4837e",
+                "slotEnd": "2022-06-04T00:00:00Z",
+                "slotStart": "2022-06-03T23:00:00Z"
+            },
+            {
+                "externalSlotId": "28ccc202-2bed-4311-919b-daad19e42615",
+                "slotEnd": "2022-06-04T00:15:00Z",
+                "slotStart": "2022-06-03T23:15:00Z"
+            }
+        ],
+        "0bSxx1110000001EAA": [
+            {
+                "externalSlotId": "20f879e3-0605-4dc6-82ab-ff9196d4837e",
+                "slotEnd": "2023-06-04T00:00:00Z",
+                "slotStart": "2023-06-03T23:00:00Z"
+            },
+            {
+                "externalSlotId": "28ccc202-2bed-4311-919b-daad19e42615",
+                "slotEnd": "2023-06-04T00:15:00Z",
+                "slotStart": "2023-06-03T23:15:00Z"
+            }
+        ],
+        "0bSxx2220000001EAA": [
+            {
+                "externalSlotId": "20f879e3-0605-4dc6-82ab-ff9196d4837e",
+                "slotEnd": "2024-06-04T00:00:00Z",
+                "slotStart": "2024-06-03T23:00:00Z"
+            },
+            {
+                "externalSlotId": "28ccc202-2bed-4311-919b-daad19e42615",
+                "slotEnd": "2024-06-04T00:15:00Z",
+                "slotStart": "2024-06-03T23:15:00Z"
+            }
+        ],
+        "0bSxx3333000001EAA": [
+            {
+                "externalSlotId": "20f879e3-0605-4dc6-82ab-ff9196d4837e",
+                "slotEnd": "2025-06-04T00:00:00Z",
+                "slotStart": "2025-06-03T23:00:00Z"
+            },
+            {
+                "externalSlotId": "28ccc202-2bed-4311-919b-daad19e42615",
+                "slotEnd": "2025-06-04T00:15:00Z",
+                "slotStart": "2025-06-03T23:15:00Z"
+            }
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "CustomJavaScript": "{}",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "mergeCareProvidersAndTheTimeSlotsWithList",
+    "OmniProcessElement": [
+        "sample_mergeCareProvidersAndTheTimeSlotsWithList_Element_HTTPActionGetCareProviders.json",
+        "sample_mergeCareProvidersAndTheTimeSlotsWithList_Element_HTTPActionGetTimeslotsArray.json",
+        "sample_mergeCareProvidersAndTheTimeSlotsWithList_Element_ListAction.json",
+        "sample_mergeCareProvidersAndTheTimeSlotsWithList_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "sample_mergeCareProvidersAndTheTimeSlotsWithList",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "sample_mergeCareProvidersAndTheTimeSlotsWithList_PropertySetConfig.json",
+    "SubType": "mergeCareProvidersAndTheTimeSlotsWithList",
+    "Type": "sample",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sample/mergeCareProvidersAndTheTimeSlotsWithList/Procedure",
+    "WebComponentKey": "6e3260db-5320-a8de-e191-882ac5cb1226"
+}

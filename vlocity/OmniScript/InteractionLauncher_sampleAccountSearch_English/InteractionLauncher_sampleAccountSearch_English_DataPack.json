@@ -1,0 +1,30 @@
+{
+    "Description": "Omniscript used by the Interaction Launcher",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "English",
+    "LastPreviewPage": "Lightning Mobile (iPhone)",
+    "Name": "Sample Account Search",
+    "OmniProcessElement": [
+        "InteractionLauncher_sampleAccountSearch_English_Element_AccountSearch.json",
+        "InteractionLauncher_sampleAccountSearch_English_Element_AccountName.json",
+        "InteractionLauncher_sampleAccountSearch_English_Element_DataRaptorExtractAction.json",
+        "InteractionLauncher_sampleAccountSearch_English_Element_Result.json",
+        "InteractionLauncher_sampleAccountSearch_English_Element_Details.json",
+        "InteractionLauncher_sampleAccountSearch_English_Element_Verify.json",
+        "InteractionLauncher_sampleAccountSearch_English_Element_SelectedResult.json",
+        "InteractionLauncher_sampleAccountSearch_English_Element_DoneAction.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "InteractionLauncher_sampleAccountSearch_English_PropertySetConfig.json",
+    "SubType": "sampleAccountSearch",
+    "Type": "InteractionLauncher",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/InteractionLauncher/sampleAccountSearch/English",
+    "WebComponentKey": "6734a46d-6904-776e-7034-9d6c086e90e8"
+}

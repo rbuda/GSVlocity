@@ -1,0 +1,25 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "LoopBlockProviders",
+    "OmniProcessId": {
+        "Name": "mergeCareProvidersAndTheTimeSlotsWithLoop",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/sample/mergeCareProvidersAndTheTimeSlotsWithLoop/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "label": "LoopBlock1",
+        "loopList": "HTTPActionGetCareProviders:careProviders",
+        "loopOutput": {
+            "careProviders": "%SlotsForOneProviderTest%"
+        },
+        "show": null
+    },
+    "Type": "Loop Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/sample/mergeCareProvidersAndTheTimeSlotsWithLoop/Procedure/LoopBlockProviders"
+}

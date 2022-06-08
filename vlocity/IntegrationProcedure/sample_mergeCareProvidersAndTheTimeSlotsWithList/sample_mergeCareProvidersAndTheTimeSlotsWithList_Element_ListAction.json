@@ -1,0 +1,71 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "ListAction",
+    "OmniProcessId": {
+        "Name": "mergeCareProvidersAndTheTimeSlotsWithList",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/sample/mergeCareProvidersAndTheTimeSlotsWithList/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalChainableResponse": {
+        },
+        "additionalInput": {
+        },
+        "additionalOutput": {
+        },
+        "advancedMerge": true,
+        "advancedMergeMap": [
+            {
+                "listKey": "HTTPActionGetCareProviders:careProviders",
+                "matchingPath": "providerId",
+                "normalizeKey": "1"
+            },
+            {
+                "listKey": "HTTPActionGetTimeslotsArray:slots",
+                "matchingPath": "careProviderId",
+                "normalizeKey": "1"
+            }
+        ],
+        "allowMergeNulls": false,
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "dynamicOutputFields": "",
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "filterListFormula": "",
+        "hasPrimary": false,
+        "label": "ListAction1",
+        "mergeFields": [
+        ],
+        "mergeListsOrder": [
+            "HTTPActionGetCareProviders:careProviders",
+            "HTTPActionGetTimeslotsArray:slots"
+        ],
+        "primaryListKey": "",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": false,
+        "show": null,
+        "sortBy": [
+            "providerName"
+        ],
+        "sortInDescendingOrder": false,
+        "updateFieldValue": {
+        },
+        "useFormulas": true
+    },
+    "Type": "List Merge Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/sample/mergeCareProvidersAndTheTimeSlotsWithList/Procedure/ListAction"
+}

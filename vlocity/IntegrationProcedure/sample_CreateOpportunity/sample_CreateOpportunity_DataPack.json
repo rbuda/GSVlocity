@@ -1,0 +1,26 @@
+{
+    "CustomJavaScript": "sample_CreateOpportunity_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "CreateOpportunity",
+    "OmniProcessElement": [
+        "sample_CreateOpportunity_Element_TryCatchBlock.json",
+        "sample_CreateOpportunity_Element_CreateAccountAndOpportunity.json",
+        "sample_CreateOpportunity_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "sample_CreateOpportunity",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "sample_CreateOpportunity_PropertySetConfig.json",
+    "RequiredPermission": "SalesTeam",
+    "SubType": "CreateOpportunity",
+    "Type": "sample",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sample/CreateOpportunity/Procedure",
+    "WebComponentKey": "a2e7d1cc-5ee9-e39e-72a9-fecc0af9024b"
+}

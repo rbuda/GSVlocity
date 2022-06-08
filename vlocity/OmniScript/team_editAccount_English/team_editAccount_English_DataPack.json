@@ -1,0 +1,18 @@
+{
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "English",
+    "Name": "Team Starter Edit Account",
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "team_editAccount_English_PropertySetConfig.json",
+    "SubType": "editAccount",
+    "Type": "team",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/team/editAccount/English",
+    "WebComponentKey": "513b05b9-a6f6-2215-657a-847b3f4588a9"
+}

@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "sample_UpdateAccountInformation_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "UpdateAccountInformation",
+    "OmniProcessElement": [
+        "sample_UpdateAccountInformation_Element_DataRaptorPostUpdateAccountInfo.json",
+        "sample_UpdateAccountInformation_Element_HTTPActionUpdateAccountInformation.json",
+        "sample_UpdateAccountInformation_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "sample_UpdateAccountInformation",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "sample_UpdateAccountInformation_PropertySetConfig.json",
+    "SubType": "UpdateAccountInformation",
+    "Type": "sample",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sample/UpdateAccountInformation/Procedure",
+    "WebComponentKey": "90380011-697a-9dc6-2290-d6a17f175dfb"
+}

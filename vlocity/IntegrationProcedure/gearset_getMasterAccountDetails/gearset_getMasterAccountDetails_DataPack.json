@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "gearset_getMasterAccountDetails_SampleInput.json",
+    "Description": "Integration procedure to pull fields via a DR from S/O Account",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "gearset_getMasterAccountDetails",
+    "OmniProcessElement": [
+        "gearset_getMasterAccountDetails_Element_DRGetAccountDetails.json",
+        "gearset_getMasterAccountDetails_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "gearset_getMasterAccountDetails",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "gearset_getMasterAccountDetails_PropertySetConfig.json",
+    "SubType": "getMasterAccountDetails",
+    "Type": "gearset",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/gearset/getMasterAccountDetails/Procedure",
+    "WebComponentKey": "97c65fbe-fc66-d379-eab2-13a6556b962e"
+}

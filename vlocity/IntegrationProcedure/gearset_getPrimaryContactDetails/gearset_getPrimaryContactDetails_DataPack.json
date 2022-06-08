@@ -1,0 +1,24 @@
+{
+    "CustomJavaScript": "gearset_getPrimaryContactDetails_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "Gearset Get Primary Contact Details",
+    "OmniProcessElement": [
+        "gearset_getPrimaryContactDetails_Element_DRGetPriContactDetails.json",
+        "gearset_getPrimaryContactDetails_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "gearset_getPrimaryContactDetails",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "gearset_getPrimaryContactDetails_PropertySetConfig.json",
+    "SubType": "getPrimaryContactDetails",
+    "Type": "gearset",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/gearset/getPrimaryContactDetails/Procedure",
+    "WebComponentKey": "9e94e5f3-d7be-8169-61b7-33bf8363063e"
+}

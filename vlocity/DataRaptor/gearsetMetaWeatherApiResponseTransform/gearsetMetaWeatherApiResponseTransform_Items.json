@@ -1,0 +1,43 @@
+[
+    {
+        "GlobalKey": "gearsetMetaWeatherApiResponseTransformCustoma1d5e000000OHWRAA4Item0",
+        "InputFieldName": "title",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "gearsetMetaWeatherApiResponseTransform",
+        "OmniDataTransformationId": {
+            "Name": "gearsetMetaWeatherApiResponseTransform",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/gearsetMetaWeatherApiResponseTransform",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "City",
+        "OutputObjectName": "json",
+        "TransformValueMappings": "{}",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "gearsetMetaWeatherApiResponseTransformCustoma1d5e000000OHWRAA4Item1",
+        "InputFieldName": "consolidated_weather",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "gearsetMetaWeatherApiResponseTransform",
+        "OmniDataTransformationId": {
+            "Name": "gearsetMetaWeatherApiResponseTransform",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/gearsetMetaWeatherApiResponseTransform",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "Weather",
+        "OutputObjectName": "json",
+        "TransformValueMappings": "{}",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

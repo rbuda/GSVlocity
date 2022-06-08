@@ -1,0 +1,33 @@
+{
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "English",
+    "Name": "Team Starter Update Account Primary Contact",
+    "OmniProcessElement": [
+        "team_updateAccountPrimaryContact_English_Element_IPGetAccountPriContactDetails.json",
+        "team_updateAccountPrimaryContact_English_Element_StepContacts.json",
+        "team_updateAccountPrimaryContact_English_Element_BlkUpdatePriContact.json",
+        "team_updateAccountPrimaryContact_English_Element_UpdateName.json",
+        "team_updateAccountPrimaryContact_English_Element_UpdateEmail.json",
+        "team_updateAccountPrimaryContact_English_Element_UpdateContactId.json",
+        "team_updateAccountPrimaryContact_English_Element_BlkChangePriContact.json",
+        "team_updateAccountPrimaryContact_English_Element_BlkCreatePriContact.json",
+        "team_updateAccountPrimaryContact_English_Element_CreateFirstName.json",
+        "team_updateAccountPrimaryContact_English_Element_CreateLastName.json",
+        "team_updateAccountPrimaryContact_English_Element_CreateEmail.json",
+        "team_updateAccountPrimaryContact_English_Element_IPSavePriContactDetails.json",
+        "team_updateAccountPrimaryContact_English_Element_NavigateAction1.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "team_updateAccountPrimaryContact_English_PropertySetConfig.json",
+    "SubType": "updateAccountPrimaryContact",
+    "Type": "team",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/team/updateAccountPrimaryContact/English",
+    "WebComponentKey": "9a152581-2313-a7c7-0396-57206afbd066"
+}

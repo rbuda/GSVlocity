@@ -1,0 +1,84 @@
+[
+    {
+        "FormulaExpression": "VALUELOOKUP(slots,careProviderId)",
+        "FormulaResultPath": "slotsProvider",
+        "FormulaSequence": 2,
+        "GlobalKey": "VLKUP2_ProviderSlots09399548194496532",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VLKUP2_ProviderSlots",
+        "OmniDataTransformationId": {
+            "Name": "VLKUP2_ProviderSlots",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VLKUP2_ProviderSlots",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "careProviders:providerId",
+        "FormulaResultPath": "careProviderId",
+        "FormulaSequence": 1,
+        "GlobalKey": "VLKUP2_ProviderSlots7656681969993531",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VLKUP2_ProviderSlots",
+        "OmniDataTransformationId": {
+            "Name": "VLKUP2_ProviderSlots",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VLKUP2_ProviderSlots",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "slotsProvider",
+        "FormulaResultPath": "careProviders:timings",
+        "FormulaSequence": 3,
+        "GlobalKey": "VLKUP2_ProviderSlots333684508454021",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VLKUP2_ProviderSlots",
+        "OmniDataTransformationId": {
+            "Name": "VLKUP2_ProviderSlots",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VLKUP2_ProviderSlots",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "VLKUP2_ProviderSlots49276986129236877",
+        "InputFieldName": "careProviders",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "VLKUP2_ProviderSlots",
+        "OmniDataTransformationId": {
+            "Name": "VLKUP2_ProviderSlots",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VLKUP2_ProviderSlots",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "careProvider",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

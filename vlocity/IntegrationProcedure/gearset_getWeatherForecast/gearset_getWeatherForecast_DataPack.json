@@ -1,0 +1,27 @@
+{
+    "CustomJavaScript": "gearset_getWeatherForecast_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "Gearset Get Weather and Forecast Data",
+    "OmniProcessElement": [
+        "gearset_getWeatherForecast_Element_DRGetAccountInfo.json",
+        "gearset_getWeatherForecast_Element_HTTPGetWOEID.json",
+        "gearset_getWeatherForecast_Element_HTTPGetCurrentWeather.json",
+        "gearset_getWeatherForecast_Element_TransformResponse.json",
+        "gearset_getWeatherForecast_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "gearset_getWeatherForecast",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "gearset_getWeatherForecast_PropertySetConfig.json",
+    "SubType": "getWeatherForecast",
+    "Type": "gearset",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/gearset/getWeatherForecast/Procedure",
+    "WebComponentKey": "537d8e7c-f0af-23ab-9211-9603d2ecffde"
+}

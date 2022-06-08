@@ -1,0 +1,24 @@
+{
+    "CustomJavaScript": "{}",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "Team  Stub Get Case List",
+    "OmniProcessElement": [
+        "team_getCaseList_Element_SetValues.json",
+        "team_getCaseList_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "team_getCaseList",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "team_getCaseList_PropertySetConfig.json",
+    "SubType": "getCaseList",
+    "Type": "team",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/team/getCaseList/Procedure",
+    "WebComponentKey": "cfe46454-95c4-7cf7-dd34-86588d304313"
+}

@@ -1,0 +1,41 @@
+{
+    "AuthorName": "Salesforce",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "contextVariables": [
+            {
+                "id": 1,
+                "name": "recordId",
+                "val": "0015f0000097BQCAA2"
+            }
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "IntegrationProcedures",
+        "value": {
+            "dsDelay": "",
+            "inputMap": {
+                "AccountId": "{recordId}"
+            },
+            "ipMethod": "sample_getAccountContactDetails",
+            "resultVar": "[\"Contact\"]",
+            "vlocityAsync": false
+        }
+    },
+    "Description": "",
+    "IsTrackingEnabled": false,
+    "Name": "sampleContacts",
+    "Namespace": "",
+    "OmniUiCardKey": "sampleContacts/Salesforce/1.0/1636050259619",
+    "OmniUiCardType": "Child",
+    "PropertySetConfig": "sampleContacts.json",
+    "SampleDataSourceResponse": "{\"Contact\":[{\"ContactLastName\":\"Stamos\",\"ContactTitle\":\"President and CEO\",\"ContactId\":\"0035f0000086wwNAAQ\",\"ContactFirstName\":\"Edward\",\"ContactEmail\":\"edward2@acme.com\",\"ContactPhone\":\"2121691475\"},{\"ContactLastName\":\"Tomlin\",\"ContactTitle\":\"VP Customer Support\",\"ContactId\":\"0035f0000086wwOAAQ\",\"ContactFirstName\":\"Leanne\",\"ContactEmail\":\"ltomlin1@acme.com\",\"ContactPhone\":\"(212) 189-8980\"},{\"ContactLastName\":\"Jones\",\"ContactTitle\":\"Buyer\",\"ContactId\":\"0035f0000086wwPAAQ\",\"ContactFirstName\":\"Howard\",\"ContactEmail\":\"hjones@acme.com\",\"ContactPhone\":\"(650) 169-2247\"},{\"ContactLastName\":\"Hunt\",\"ContactTitle\":\"VP of Marketing\",\"ContactId\":\"0035f0000086wwQAAQ\",\"ContactFirstName\":\"Jeff\",\"ContactEmail\":\"jhunt@acme.com\",\"ContactPhone\":\"(415) 156-7801\"}],\"Account\":{\"AccountName\":\"Acme\",\"AccountPostalCode\":\"10044\",\"AccountPriContact\":\"Leanne Tomlin\",\"AccountWebsite\":\"www.acme.com\",\"AccountId\":\"0015f0000097BQCAA2\",\"AccountPhone\":\"(212) 154-6450\"}}",
+    "StylingConfiguration": "",
+    "UniqueName": "",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/sampleContacts"
+}

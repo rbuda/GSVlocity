@@ -1,0 +1,28 @@
+{
+    "CustomJavaScript": "{}",
+    "Description": "VALUELOOKUP to associate slots to careProviderId. Single loop block for providers",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "mergeCareProvidersAndTheTimeSlotsWithLoop",
+    "OmniProcessElement": [
+        "sample_mergeCareProvidersAndTheTimeSlotsWithLoop_Element_HTTPActionGetCareProviders.json",
+        "sample_mergeCareProvidersAndTheTimeSlotsWithLoop_Element_HTTPActionGetTimeslots.json",
+        "sample_mergeCareProvidersAndTheTimeSlotsWithLoop_Element_LoopBlockProviders.json",
+        "sample_mergeCareProvidersAndTheTimeSlotsWithLoop_Element_SlotsForOneProviderTest.json",
+        "sample_mergeCareProvidersAndTheTimeSlotsWithLoop_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "sample_mergeCareProvidersAndTheTimeSlotsWithLoop",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "sample_mergeCareProvidersAndTheTimeSlotsWithLoop_PropertySetConfig.json",
+    "SubType": "mergeCareProvidersAndTheTimeSlotsWithLoop",
+    "Type": "sample",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sample/mergeCareProvidersAndTheTimeSlotsWithLoop/Procedure",
+    "WebComponentKey": "feca2f86-3350-c9da-7568-5dfc8cfcca73"
+}

@@ -1,0 +1,41 @@
+{
+    "AuthorName": "Salesforce",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "contextVariables": [
+            {
+                "id": 1,
+                "name": "recordId",
+                "val": "0015f0000097BQCAA2"
+            }
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "IntegrationProcedures",
+        "value": {
+            "dsDelay": "",
+            "inputMap": {
+                "AccountId": "{recordId}"
+            },
+            "ipMethod": "sample_getCaseList",
+            "resultVar": "",
+            "vlocityAsync": false
+        }
+    },
+    "Description": "",
+    "IsTrackingEnabled": false,
+    "Name": "sampleCasesParent",
+    "Namespace": "",
+    "OmniUiCardKey": "sampleCasesParent/Salesforce/1.0/1635782042313",
+    "OmniUiCardType": "Parent",
+    "PropertySetConfig": "sampleCasesParent.json",
+    "SampleDataSourceResponse": "[{\"CaseDescription\":\"Customer is looking for an update on timeline for on hold shipment.\",\"CaseId\":\"5005f000001uUl1AAE\",\"CaseSubject\":\"Shipment on hold update request\",\"CaseOpenDate\":\"2021-11-03T20:55:43.000Z\",\"CaseNumber\":\"00001029\",\"CaseStatus\":\"New\"},{\"CaseDescription\":\"Customer has not received a recent invoice and is inquiring about their billing status.\",\"CaseId\":\"5005f000001uUl6AAE\",\"CaseSubject\":\"Billing status\",\"CaseOpenDate\":\"2021-11-03T20:55:09.000Z\",\"CaseNumber\":\"00001028\",\"CaseStatus\":\"New\"},{\"CaseDescription\":\"Customer has not received a recent invoice and is inquiring about their billing status.\",\"CaseId\":\"5005f000001uUl5AAE\",\"CaseSubject\":\"Billing status\",\"CaseOpenDate\":\"2021-11-03T20:54:38.000Z\",\"CaseNumber\":\"00001027\",\"CaseStatus\":\"New\"},{\"CaseDescription\":\"Customer ran a trace with Fedex but can't track most recent order. Fedex tracking # 39908098430933434.\",\"CaseId\":\"5005f000001uUl0AAE\",\"CaseSubject\":\"Cannot track our order\",\"CaseOpenDate\":\"2021-11-03T20:53:36.000Z\",\"CaseNumber\":\"00001026\",\"CaseStatus\":\"New\"}]",
+    "StylingConfiguration": "",
+    "UniqueName": "",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/sampleCasesParent"
+}
