@@ -1,26 +1,28 @@
 {
-    "%vlocity_namespace%__Active__c": true,
-    "%vlocity_namespace%__OmniScriptId__c": {
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "Details",
+    "OmniProcessId": {
         "Name": "Sample Account Search",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/InteractionLauncher/sampleAccountSearch/English",
-        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        "VlocityMatchingRecordSourceKey": "OmniProcess/InteractionLauncher/sampleAccountSearch/English",
+        "VlocityRecordSObjectType": "OmniProcess"
     },
-    "%vlocity_namespace%__ParentElementId__c": {
-        "%vlocity_namespace%__OmniScriptId__c": {
+    "ParentElementId": {
+        "Name": "Result",
+        "OmniProcessId": {
             "Name": "Sample Account Search",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
-            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/InteractionLauncher/sampleAccountSearch/English",
-            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+            "VlocityMatchingRecordSourceKey": "OmniProcess/InteractionLauncher/sampleAccountSearch/English",
+            "VlocityRecordSObjectType": "OmniProcess"
         },
-        "Name": "Result",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/InteractionLauncher/sampleAccountSearch/English/Result",
-        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/sampleAccountSearch/English/Result",
+        "VlocityRecordSObjectType": "OmniProcessElement"
     },
-    "%vlocity_namespace%__ParentElementName__c": "Result",
-    "%vlocity_namespace%__ParentElementType__c": "Step",
-    "%vlocity_namespace%__PropertySet__c": {
+    "ParentElementName": "Result",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
         "HTMLTemplateId": "SearchResult",
         "accessibleInFutureSteps": false,
         "dataJSON": true,
@@ -52,10 +54,8 @@
         "sendJSONPath": "",
         "show": null
     },
-    "%vlocity_namespace%__ReusableOmniScript__c": false,
-    "%vlocity_namespace%__Type__c": "Selectable Items",
-    "Name": "Details",
+    "Type": "Selectable Items",
     "VlocityDataPackType": "SObject",
-    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
-    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/InteractionLauncher/sampleAccountSearch/English/Details"
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/sampleAccountSearch/English/Details"
 }
